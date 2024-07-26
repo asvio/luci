@@ -348,7 +348,9 @@ var CBIWifiFrequencyValue = form.Value.extend({
 				'': [ '', '-', true ],
 				'n': [
 					'HT20', '20 MHz', htmodelist.HT20,
-					'HT40', '40 MHz', htmodelist.HT40
+					'HT40','40 MHz',htmodelist.HT40,
+					'VHT20','20 MHz QAM-256',htmodelist.VHT20,
+					'VHT40','40 MHz QAM-256',htmodelist.VHT40
 				],
 				'ac': [
 					'VHT20', '20 MHz', htmodelist.VHT20,
